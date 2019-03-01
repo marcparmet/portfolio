@@ -1,0 +1,27 @@
+table.portfolio {
+    font-family: sans-serif;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+table.portfolio td {
+    border: 1px solid #ccc;
+    padding: 2px 4px;
+}
+
+.intrinsic {
+    display: none;
+}
+
+table.portfolio td.intrinsic, table.portfolio td.home-value {
+    text-align: right;
+}
+
+table.portfolio td.home-value {
+    border-right-color: transparent;
+    padding-right: 0;
+}
+
+table.portfolio td.home-currency {
+    border-left-color: transparent;
+}
